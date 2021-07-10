@@ -35,7 +35,7 @@ int main() {
 	// we can see that exactly one (1) even and one (1) odd can ONLY form an odd sum, and if we
 	// look at the prime number sequence, there is ONLY one even number that is 2. It means
 	// that the value of 'a' is ALWAYS equal to 2. In conclusion, any prime number that is
-	// added to 2 that produces another prime number, then it is considered as a valid tuple.
+	// added to 2 that produces another prime number is considered as a valid tuple.
 	for (int i = 5; i < inf; i++) {
 		// check if the current number and the (current number - 2) if they are both prime
 		if (prime[i] && prime[i - 2]) {
