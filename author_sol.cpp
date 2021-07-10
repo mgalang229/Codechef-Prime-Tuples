@@ -32,7 +32,7 @@ int main() {
 	// even + even = even
 	// odd + odd = even
 	// even + odd = odd
-	// we can see that exactly one (1) even and one (1) can ONLY form an odd sum, and if we
+	// we can see that exactly one (1) even and one (1) odd can ONLY form an odd sum, and if we
 	// look at the prime number sequence, there is ONLY one even number that is 2. It means
 	// that the value of 'a' is ALWAYS equal to 2. In conclusion, any prime number that is
 	// added to 2 that produces another prime number, then it is considered as a valid tuple.
