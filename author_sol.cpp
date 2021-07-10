@@ -43,7 +43,7 @@ int main() {
 			cnt++;
 		}
 		// set the specific 'cnt' value to the corresponding number (it means that in this
-		// current number, there are 'cnt' prime numbers before or equal to it)
+		// current number, there are 'cnt' valid tuples)
 		res[i] = cnt;
 	}
 	int tt;
